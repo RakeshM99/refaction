@@ -9,6 +9,7 @@ namespace refactor_me
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+         //Confugure for app Start 
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
